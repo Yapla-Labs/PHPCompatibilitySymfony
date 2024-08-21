@@ -37,7 +37,11 @@
     "symfony/polyfill-php72": "1.x-dev",
     "symfony/polyfill-php73": "1.x-dev",
     "symfony/polyfill-php74": "1.x-dev",
-    "symfony/polyfill-php80": "1.x-dev"
+    "symfony/polyfill-php80": "1.x-dev",
+    "symfony/polyfill-php81": "1.x-dev",
+    "symfony/polyfill-php82": "1.x-dev",
+    "symfony/polyfill-php83": "1.x-dev",
+    "symfony/polyfill-php84": "1.x-dev"
   },
   "suggest" : {
     "dealerdirect/phpcodesniffer-composer-installer": "^1.0 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",

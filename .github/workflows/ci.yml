@@ -66,6 +66,10 @@ jobs:
           diff -B ./PHPCompatibilitySymfonyPolyfillPHP73/ruleset.xml <(xmllint --format "./PHPCompatibilitySymfonyPolyfillPHP73/ruleset.xml")
           diff -B ./PHPCompatibilitySymfonyPolyfillPHP74/ruleset.xml <(xmllint --format "./PHPCompatibilitySymfonyPolyfillPHP74/ruleset.xml")
           diff -B ./PHPCompatibilitySymfonyPolyfillPHP80/ruleset.xml <(xmllint --format "./PHPCompatibilitySymfonyPolyfillPHP80/ruleset.xml")
+          diff -B ./PHPCompatibilitySymfonyPolyfillPHP81/ruleset.xml <(xmllint --format "./PHPCompatibilitySymfonyPolyfillPHP81/ruleset.xml")
+          diff -B ./PHPCompatibilitySymfonyPolyfillPHP82/ruleset.xml <(xmllint --format "./PHPCompatibilitySymfonyPolyfillPHP82/ruleset.xml")
+          diff -B ./PHPCompatibilitySymfonyPolyfillPHP83/ruleset.xml <(xmllint --format "./PHPCompatibilitySymfonyPolyfillPHP83/ruleset.xml")
+          diff -B ./PHPCompatibilitySymfonyPolyfillPHP84/ruleset.xml <(xmllint --format "./PHPCompatibilitySymfonyPolyfillPHP84/ruleset.xml")
 
   test:
     needs: xmllint
@@ -164,4 +168,8 @@ jobs:
           vendor/bin/phpcs -ps ./vendor/symfony/polyfill-php73/ --standard=PHPCompatibilitySymfonyPolyfillPHP73 --runtime-set testVersion 7.1-
           vendor/bin/phpcs -ps ./vendor/symfony/polyfill-php74/ --standard=PHPCompatibilitySymfonyPolyfillPHP74 --runtime-set testVersion 7.1-
           vendor/bin/phpcs -ps ./vendor/symfony/polyfill-php80/ --standard=PHPCompatibilitySymfonyPolyfillPHP80 --runtime-set testVersion 7.1-
+          vendor/bin/phpcs -ps ./vendor/symfony/polyfill-php81/ --standard=PHPCompatibilitySymfonyPolyfillPHP81 --runtime-set testVersion 7.1-
+          vendor/bin/phpcs -ps ./vendor/symfony/polyfill-php82/ --standard=PHPCompatibilitySymfonyPolyfillPHP82 --runtime-set testVersion 7.1-
+          vendor/bin/phpcs -ps ./vendor/symfony/polyfill-php83/ --standard=PHPCompatibilitySymfonyPolyfillPHP83 --runtime-set testVersion 7.1-
+          vendor/bin/phpcs -ps ./vendor/symfony/polyfill-php84/ --standard=PHPCompatibilitySymfonyPolyfillPHP84 --runtime-set testVersion 7.1-
 
