@@ -2,9 +2,6 @@
 <ruleset name="PHPCompatibilitySymfonyPolyfillPHP70">
     <description>PHPCompatibility ruleset for PHP_CodeSniffer which accounts for polyfills provided by the Symfony PHP 7.0 library.</description>
 
-    <!-- https://github.com/symfony/polyfill-php70/blob/main/composer.json -->
-    <rule ref="PHPCompatibilityParagonieRandomCompat"/>
-
     <rule ref="PHPCompatibility">
         <!-- https://github.com/symfony/polyfill-php70/blob/main/bootstrap.php -->
         <exclude name="PHPCompatibility.FunctionUse.NewFunctions.intdivFound"/>

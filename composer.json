@@ -25,9 +25,7 @@
     "lock": false
   },
   "require" : {
-    "phpcompatibility/php-compatibility" : "^9.0",
-    "phpcompatibility/phpcompatibility-paragonie" : "^1.0",
-    "phpcompatibility/phpcompatibility-passwordcompat" : "^1.0"
+    "phpcompatibility/php-compatibility" : "10.x-dev"
   },
   "require-dev" : {
     "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
